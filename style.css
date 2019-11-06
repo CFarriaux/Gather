@@ -1,0 +1,299 @@
+Style.css
+
+@import url("https://fonts.googleapis.com/css?family=Catamaran|Open+Sans&display=swap");
+
+/* body */
+body {
+  margin: 0px;
+  background: rgb(240, 240, 240);
+  color: #4d4f51;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: regular;
+}
+h1, h2, h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 40px;
+  color: #ED7D3A;
+}
+h2 {
+  font-size: 30px;
+  color: #ED7D3A;
+}
+a {
+  color: #ED7D3A;
+  text-decoration: none;
+}
+
+
+/* title */
+.title, .typeform {
+  text-align: center;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.title h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #4d4f51;
+}
+.title p {
+  font-size: 20px;
+  color: #4d4f51;
+}
+
+.middle-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.large-image{
+  text-align: ;
+  color: black;
+  padding: 200px 100px;
+  background-image: url("images/Dashboard.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* TO DELETE IN COMPONENTS */
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+/* Change the color of links on hover */
+.topnav a.passive:hover {
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #ED7D3A;
+}
+
+.topnav a.passive {
+  color: grey;
+}
+
+
+/* Underline call to action */
+.topnav a.underline {
+  background-color: #ED7D3A;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 3px;
+}
+
+.topnav a.underline:hover {
+  background: #F26735;
+  color: white;
+}
+
+.banner-outer{
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/team.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner{
+  text-align: center;
+  color: white;
+  padding: 150px 100px;
+  background-color: transparent;
+}
+
+.banner h1 {
+  font-size: 50px;
+}
+
+.banner h4 {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+.list-classic{
+  list-style: none
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card-white {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 20px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.card-white img {
+  width: 150px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.card-white p, h2 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.card-white:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.card-small {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 10px;
+  flex-basis: 250px;
+  margin-left: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.card-small img {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.card-small h2, p {
+  flex-grow: 1;
+  padding-left: 5px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.text-left, .text-right  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 100px;
+  flex-grow: 1;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.text-left img, .text-right img {
+  width: 250px;
+  height: 180px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.text-left p, h4, .text-right p, h4 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.text-left h4, .text-right h4 {
+  padding-bottom: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-blue {
+  color: white;
+  background: #ED7D3A;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 3px;
+  padding: 15px 20px;
+  align-content: center;
+  display:inline-block;         
+  margin:0 auto;
+  transition: 0.3s;
+}
+.btn-blue:hover {
+  background: #F26735;
+  color: white;
+}
+
+.footer {
+  background-color: #fcfcfe;
+  padding: 24px;
+}
+
+.footer a {
+  font-size: 32px;
+  color: #4d4f51;
+}
+
+.footer a:hover {
+  color: #ED7D3A;
+  font-size: 32px;
+}
+
+#typeform {
+  margin-bottom: 40px;
+}
+
+#logo {
+  width: 900px;
+  padding: 30px;
+}
